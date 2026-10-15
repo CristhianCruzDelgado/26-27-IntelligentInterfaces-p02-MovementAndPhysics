@@ -10,7 +10,6 @@ public class exercise1 : MonoBehaviour
         rigibody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdateDirection();
