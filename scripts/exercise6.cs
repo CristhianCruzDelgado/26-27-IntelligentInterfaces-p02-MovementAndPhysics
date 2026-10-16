@@ -18,7 +18,7 @@ public class exercise6 : MonoBehaviour
         sphereCollider = GetComponent<Collider>();
         cubeCollider = cubeObstacle.GetComponent<Collider>();
         currentCubeMaterial = cubeObstacle.GetComponent<Renderer>().material;
-        newCubeMaterial = Resources.Load<Material>("Materials/NewMaterial");
+        newCubeMaterial = Resources.Load<Material>("newMaterial");
         hasReachedCylinderTarget = false;
         isCollidingWithCubeObject = false;
     }

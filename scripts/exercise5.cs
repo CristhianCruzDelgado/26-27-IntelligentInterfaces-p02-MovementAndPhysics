@@ -9,7 +9,7 @@ public class exercise5 : MonoBehaviour
         rigibody = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.X))
         {
